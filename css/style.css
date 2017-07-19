@@ -1,26 +1,306 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+/**
+* @Author: Donny Rhomanzah
+* @Date:   2017-07-04T14:50:20+07:00
+* @Email:  donnyrhomanzah@gmail.com
+* @Project: GIMBOT UI
+* @Filename: style.css
+* @Last modified by:   Donny Rhomanzah
+* @Last modified time: 2017-07-19T23:05:58+07:00
+* @Copyright: MIT
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
 
 body {
-  background: #EEEEF4;
-  color:#999;
-  font-family:Roboto;
+    font-family: "Lato", sans-serif;
 }
 
-h1{
-  font-weight:100;
-  font-size:27pt;
-  color:#E43;
+h2 {
+    font-size: 2.1em;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
-p{font-weight:300;}
+.part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
 
-.warning-content {
-	position:absolute;
-  top:25%;
-  width:100%;
-  height:300px;
-  text-align:center;
-  margin:0;
-  
-  
+.part p {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.part h2 {
+    margin-bottom: 60px;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../img/skyline.jpg");
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+header h1 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 3.37em;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.header-text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header-text p {
+    font-size: 1em;
+}
+
+.fa-angle-down {
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.about {
+    color: #3c3c3c;
+    margin: 130px 0px 130px 0px;
+}
+
+.education {
+    background-image: url("../img/education.jpeg");
+    background-size: cover;
+    height: 630px;
+    color: #f4f5f7;
+}
+
+.experience {
+    color: #3c3c3c;
+    margin: 130px 0px 130px 0px;
+}
+
+
+/*.skill {
+    background-image: url("../img/skill.jpg");
+    background-size: cover;
+    height: 430px;
+    color: #f4f5f7;
+}*/
+
+.what-we-do {
+    margin: 100px 0px 200px 0px;
+    color: #3c3c3c;
+}
+
+.what-we-do h2 {
+    margin-bottom: 0px;
+}
+
+.what-we-do h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /*padding: 30px 0px 30px 0px;*/
+}
+
+.what-we-do .row {
+    margin-top: 100px;
+}
+
+.skill-row {
+    width: 55%;
+}
+
+.skill-container {
+    background-color: #f1f1f1;
+    padding: 20px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.skill-desc {
+    margin-top: 20px;
+}
+
+.work .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.work h2 {
+    margin-top: 0;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    color: #ffffff;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    padding: 0px 0px 20px 20px;
+    letter-spacing: 5px;
+}
+
+.work .col {
+    height: 200px;
+    border: 3px solid #ffffff;
+}
+
+.col:hover {
+    opacity: 1;
+}
+
+.col {
+    opacity: 0.4;
+}
+
+
+/*.col-1 {
+    background-image: url("https://raw.githubusercontent.com/Pixeluh/PsdCodePractice/master/Ellipsis/assets/images/work-1.jpg");
+    background-size: cover;
+}
+
+.col-2 {
+    background-image: url("https://raw.githubusercontent.com/Pixeluh/PsdCodePractice/master/Ellipsis/assets/images/work-2.jpg");
+    background-size: cover;
+}
+
+.col-3 {
+    background-image: url("https://raw.githubusercontent.com/Pixeluh/PsdCodePractice/master/Ellipsis/assets/images/work-3.jpg");
+    background-size: cover;
+}*/
+
+.contact {
+    margin: 130px 0px 50px 0px;
+    color: #3c3c3c;
+}
+
+.btn-default {
+    margin-top: 40px;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border: none;
+    height: 55px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.btn-default:hover {
+    background-color: #090909;
+    color: #ffffff;
+}
+
+footer {
+    margin-bottom: 40px;
+}
+
+.edu {
+    text-align: left;
+    width: 35%;
+}
+
+.edu>p {
+    margin: 0;
+}
+
+
+/*works*/
+
+.automers {
+    background-image: url("../img/works/automers.jpg");
+    background-size: cover;
+}
+
+.xbot {
+    background-image: url("../img/works/xbot.png");
+    background-size: cover;
+}
+
+.elpistolero {
+    background-image: url("../img/works/elpistolero.png");
+    background-size: cover;
+}
+
+.edison {
+    background-image: url("../img/works/edison.png");
+    background-size: cover;
+}
+
+.gamingGearUno {
+    background-image: url("../img/works/gguno.png");
+    background-size: cover;
+}
+
+.gamingGear8535 {
+    background-image: url("../img/works/gg8535.jpg");
+    background-size: cover;
+}
+
+.agv {
+    background-image: url("../img/works/agv.png");
+    background-size: cover;
+}
+
+.farming {
+    background-image: url("../img/works/farmer.jpg");
+    background-size: cover;
+}
+
+.komunomu {
+    background-image: url("../img/works/komunomu.jpg");
+    background-size: cover;
+}
+
+
+/*modals*/
+.prodetails{
+  margin-bottom: 5px;
+}
+.prodetails-sub{
+  margin-bottom: 0;
+}
+.prodetails-title{
+  margin-top: 10px;
+  color: #52504d;
 }

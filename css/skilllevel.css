@@ -1,0 +1,108 @@
+/**
+* @Author: Donny Rhomanzah
+* @Date:   2017-07-19T18:38:52+07:00
+* @Email:  donnyrhomanzah@gmail.com
+* @Project: GIMBOT UI
+* @Filename: skilllevel.css
+* @Last modified by:   Donny Rhomanzah
+* @Last modified time: 2017-07-19T19:05:03+07:00
+* @Copyright: MIT
+*/
+
+
+
+progress, progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-size: auto;
+  height: 15px;
+  width: 100%;
+}
+
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.leftme{
+  text-align: left;
+  margin: 0;
+}
+
+.skill {
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.skill h3 {
+  color: #fff;
+  left: 1em;
+  line-height: 1;
+  position: absolute;
+  top: 1em;
+}
+.skill ::-webkit-progress-value {
+  -webkit-animation: bar-fill 2s;
+  width: 0px;
+}
+
+.skill-1::-webkit-progress-value {
+  background: #ff9e2c;
+}
+
+.skill-1::-moz-progress-bar {
+  background: #ff9e2c;
+}
+
+.skill-2::-webkit-progress-value {
+  background: #4ecdc4;
+}
+
+.skill-2::-moz-progress-bar {
+  background: #4ecdc4;
+}
+
+.skill-3::-webkit-progress-value {
+  background: #ff6b6b;
+}
+
+.skill-3::-moz-progress-bar {
+  background: #ff6b6b;
+}
+
+.skill-4::-webkit-progress-value {
+  background: #3498db;
+}
+
+.skill-4::-moz-progress-bar {
+  background: #3498db;
+}
+
+.skill-5::-webkit-progress-value {
+  background: #bdc3c7;
+}
+
+.skill-5::-moz-progress-bar {
+  background: #bdc3c7;
+}
+
+.skill-6::-webkit-progress-value {
+  background: #9b59b6;
+}
+
+.skill-6::-moz-progress-bar {
+  background: #9b59b6;
+}
+
+@-webkit-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
