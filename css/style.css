@@ -5,7 +5,7 @@
 * @Project: GIMBOT UI
 * @Filename: style.css
 * @Last modified by:   Donny Rhomanzah
-* @Last modified time: 2017-07-19T23:05:58+07:00
+* @Last modified time: 2017-07-20T12:08:39+07:00
 * @Copyright: MIT
 */
 
@@ -110,7 +110,7 @@ header h1 {
 .education {
     background-image: url("../img/education.jpeg");
     background-size: cover;
-    height: 630px;
+    /*height: 630px;*/
     color: #f4f5f7;
 }
 
@@ -177,21 +177,22 @@ header h1 {
     color: #ffffff;
     font-size: 1.125em;
     text-transform: uppercase;
-    padding: 0px 0px 20px 20px;
+    padding: 10px;
+    background-color: black;
     letter-spacing: 5px;
 }
 
 .work .col {
-    height: 200px;
+    height: 250px;
     border: 3px solid #ffffff;
 }
 
 .col:hover {
-    opacity: 1;
+    opacity: 0.4;
 }
 
 .col {
-    opacity: 0.4;
+    opacity: 1;
 }
 
 
@@ -292,6 +293,16 @@ footer {
     background-size: cover;
 }
 
+.erp {
+    background-image: url("../img/works/erp.png");
+    background-size: cover;
+}
+
+.mxbot {
+    background-image: url("../img/works/mxbot.jpg");
+    background-size: cover;
+}
+
 
 /*modals*/
 .prodetails{
@@ -303,4 +314,16 @@ footer {
 .prodetails-title{
   margin-top: 10px;
   color: #52504d;
+}
+
+img{
+  margin-bottom: 10px;
+}
+
+.sociolink{
+  color: #555758;
+}
+
+.sociolink:hover{
+  color: #212121;
 }
