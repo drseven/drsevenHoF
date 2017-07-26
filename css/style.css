@@ -5,7 +5,7 @@
 * @Project: GIMBOT UI
 * @Filename: style.css
 * @Last modified by:   Donny Rhomanzah
-* @Last modified time: 2017-07-20T12:27:52+07:00
+* @Last modified time: 2017-07-21T11:25:59+07:00
 * @Copyright: MIT
 */
 
@@ -170,7 +170,7 @@ header h1 {
     justify-content: flex-start;
 }
 
-.work h2 {
+.projectlabel {
     margin-top: 0;
     -ms-flex-item-align: end;
     align-self: flex-end;
